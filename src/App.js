@@ -12,9 +12,8 @@ function App() {
   <Router>
     <div className="App">
         <Nav />
-        < Route path="/about" />
-        <About />
-        <Shop />
+        < Route path="/about" component={About} />
+        < Route path="/about" component={Shop} />
       </div>
 
   </Router>
