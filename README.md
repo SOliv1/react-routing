@@ -1,3 +1,12 @@
+
+## A simple REACT Router turorial
+
+[watch here](https://www.youtube.com/watch?v=Law7wfdg_ls)
+
+React Router Tutorial | React For Beginners
+
+In this video you will learn about the popular React library React Router. This is helpful if you are interested in using React Router in a project and want to learn about creating client side routing. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
