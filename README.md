@@ -1,3 +1,15 @@
+
+## A simple REACT Router turorial
+[![Netlify Status](https://api.netlify.com/api/v1/badges/03d83961-9fa1-4924-bbcb-23dfe755bb5f/deploy-status?branch=master)](https://app.netlify.com/sites/deluxe-sable-a5de32/deploys)
+
+View deployed site [HERE](https://deluxe-sable-a5de32.netlify.app/)
+
+[watch here](https://www.youtube.com/watch?v=Law7wfdg_ls)
+
+React Router Tutorial | React For Beginners
+
+In this video you will learn about the popular React library React Router. This is helpful if you are interested in using React Router in a project and want to learn about creating client side routing. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
