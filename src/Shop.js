@@ -1,11 +1,13 @@
 
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function Shop() {
   useEffect(() => {
     fetchItems();
   }, []);
+
+  const [ items, setItems ] = useState([]);
 
   const fetchItems = async () => {
     const data = await fetch(
@@ -16,6 +18,7 @@ function Shop() {
 
     const items = await data.json();
     console.log(items);
+    setItems(items);
 
   };
 
