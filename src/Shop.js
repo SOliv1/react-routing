@@ -5,9 +5,9 @@ import './App.css';
 
 function Shop() {
   return (
-    <div>
-        <h1>Shop</h1>
-    </div>
+    <nav>
+        <h1>Shop Page</h1>
+    </nav>
   );
 }
 
