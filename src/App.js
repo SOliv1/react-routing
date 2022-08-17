@@ -4,6 +4,7 @@ import './App.css';
 import Nav from './Nav';
 import About from './About';
 import Shop from './Shop';
+import ItemDetail from './ItemDetail';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
@@ -12,10 +13,10 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/shop" element={<Shop />}></Route>
-        <Route path="/shop/:id" />>
+        <Route path="/" exact element={Home} />
+        <Route path="/about" element={About} />
+        <Route path="/shop" exact element={Shop} />
+        <Route path="/shop/:id" element={ItemDetail} />
       </Routes>
 
     </Router>

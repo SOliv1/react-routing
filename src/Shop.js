@@ -2,12 +2,13 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
+
 function Shop() {
   useEffect(() => {
     fetchItems();
   }, []);
 
-  const [ items, setItems ] = useState([]);
+  const [items, setItem] = useState([]);
 
   const fetchItems = async () => {
     const data = await fetch(
@@ -15,17 +16,16 @@ function Shop() {
 
     );
 
-
     const items = await data.json();
     console.log(items);
-    setItems(items);
-
+    setItem(items);
   };
 
+
   return (
-      <nav>
+      <div>
         <h1>Shop Page</h1>
-      </nav>
+      </div>
 
   );
 
