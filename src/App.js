@@ -12,9 +12,10 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        < Route path="/" exact element={<Home />} />
-        < Route path="/about" element={<About />} />
-        < Route path="/shop" element={<Shop />}></Route>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/shop" element={<Shop />}></Route>
+        <Route path="/shop/:id" />>
       </Routes>
 
     </Router>
