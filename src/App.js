@@ -9,21 +9,36 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 function App() {
+
   return (
+
     <Router>
+
       <Nav />
+
       <Routes>
-        <Route path="/" exact element={Home} />
-        <Route path="/about" element={About} />
-        <Route path="/shop" exact element={Shop} />
-        <Route path="/shop/:id" element={ItemDetail} />
+
+        <Route path="/" element={<Home/>} />
+
+        <Route path="/about" element={<About/>} />
+
+        <Route path="/shop" element={<Shop/>} />
+
+        <Route path="/shop/:id" element={<ItemDetail/>} />
+
       </Routes>
+
+ 
 
     </Router>
 
   );
 
+ 
+
 }
+
+ 
 
 const Home  = () => (
   <nav>

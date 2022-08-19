@@ -12,7 +12,7 @@ function Shop() {
 
   const fetchItems = async () => {
     const data = await fetch(
-      'https://fortnite-public-api.theapinetwork.com/prod09/upcoming/get'
+      'https://fortnite-api.com/v2/shop/br'
 
     );
 

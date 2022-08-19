@@ -15,7 +15,7 @@ function ItemDetail({ match }) {
 
      const fetchItem = async () => {
        const fetchItem = await fetch(
-         'https://fortnite1.p.rapidapi.com/upcoming/get?id=${ match.params.id }'
+         'https://fortnite-api.com/v2/shop/br/get?id=${ match.params.id }'
 
       );
       const item = await fetchItem.json();
