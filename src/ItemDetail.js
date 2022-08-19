@@ -15,7 +15,10 @@ function ItemDetail({ match }) {
 
      const fetchItem = async () => {
        const fetchItem = await fetch(
-         'https://fortnite-api.com/v2/shop/br/get?id=${ match.params.id }'
+        'https://fortnite-api.com/v2/shop/br/get'
+        //'https://fortnite-api.com/v2/shop/br/combined/'
+        //'https://fortnite-api.com/v2/shop/br/combined/get?id=${ match.params.id }'
+         //'https://fortnite-api.com/v2/shop/br/get?id=${ match.params.id }'//
 
       );
       const item = await fetchItem.json();
