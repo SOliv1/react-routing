@@ -51,6 +51,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+
+## Blog on fixing react-scripts error [here](https://bobbyhadz.com/blog/not-recognized-as-internal-or-external-command-react-scripts#:~:text=To%20solve%20the%20error%20%22react,your%20npm%20cache%20if%20necessary).
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
