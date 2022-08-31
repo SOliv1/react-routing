@@ -2,6 +2,7 @@
 ## A simple REACT Router turorial
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/03d83961-9fa1-4924-bbcb-23dfe755bb5f/deploy-status?branch=master)](https://app.netlify.com/sites/sample-shop-react-router/deploys)
+[![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/SOliv1/react-routing/actions/workflows/pages.yml/badge.svg)](https://github.com/SOliv1/react-routing/actions/workflows/pages.yml)
 
 View deployed site [HERE](https://sample-shop-react-router.netlify.app/)
 
