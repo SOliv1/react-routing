@@ -2,7 +2,7 @@
 ## A simple REACT Router turorial
 [![Netlify Status](https://api.netlify.com/api/v1/badges/03d83961-9fa1-4924-bbcb-23dfe755bb5f/deploy-status?branch=master)](https://app.netlify.com/sites/deluxe-sable-a5de32/deploys)
 
-View deployed site [HERE](https://deluxe-sable-a5de32.netlify.app/)
+View deployed site [HERE](https://sample-shop-react-router.netlify.app/)
 
 [watch here](https://www.youtube.com/watch?v=Law7wfdg_ls)
 
